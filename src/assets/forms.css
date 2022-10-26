@@ -1,0 +1,44 @@
+.post-add-form {
+  display: flex;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  padding: 15px;
+  margin-bottom: 1em;
+}
+.post-add-form .message {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+.post-add-form .message > textarea {
+  flex: 1; 
+  min-width: 400px;
+  padding: 1em;
+}
+.post-form-entry {
+  flex: 1; 
+  order: 1;
+  margin-right: 2em; 
+}
+.post-form-entry textarea {
+  flex: 1; 
+  min-width: 100%;
+  min-height: 100px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.post-form-entry input {
+  width: 100%;
+}
+.post-form-entry input,
+.post-form-entry button {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.post-form-entry button {
+ background: hsla(160, 100%, 37%, 1);
+ color: white;
+ border: 0;
+ cursor: pointer;
+ font-weight: bold;
+}
